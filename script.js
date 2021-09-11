@@ -5,7 +5,7 @@ function test(params) {
     let n = Number(inputEl.value)
     if (!n) {
         alert("please enter a valid integer")
-        inputEl.value=" "
+        inputEl.value=""
 
     } else {
         let figure = square(n)
@@ -26,4 +26,10 @@ function square(n) {
     }
     result += row1
     return result
+}
+function cleartext () {
+    inputEl.value=""
+    squareEl.textContent=""
+
+
 }

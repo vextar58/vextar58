@@ -23,7 +23,7 @@ function calculate(){
     let tax = document.getElementById("tax").value
 
     let result = profit([company, adultTickets, kidsTickets, price, tax])
-    let div = document.getElementById(result)
+    let div = document.getElementById("result")
     div.textContent = result
 
 }
